@@ -18,12 +18,19 @@ import os
 # Get database dir path when run in another dir
 def find_database_dir():
 
+	##### Use when built app #####
+	# pyinstaller mold_draw.py --debug all
+	# pyinstaller mold_ui.py --debug all
+	# pyinstaller mold_draw.py --noconsole
+	# pyinstaller mold_ui.py --noconsole
+
 	now_path = os.path.dirname(os.path.abspath(__file__))
 	parent_dir = Path(now_path).parent.parent.parent.joinpath('database') # Database Dir
 	path = str(parent_dir).replace('\\', '/')
 
-	# Use below when like to chose database dir / Hide when built app
+	##### Use below when like to chose database dir / Hide when built app ##### 
 	# path = 'C:/Users/DELL/Desktop/t13/database'
+	##### 
 
 	# print('\n############################################################\n')
 	# print('##### Working with DATABASE: %s #####' % path)
@@ -35,9 +42,9 @@ def sql(command):
 
 	path = find_database_dir()
 	DATABASE = os.path.join(path, 'database.db')
-	# print('############')
-	# print('Run comand with DATABASE: %s' % DATABASE)
-	# print('############')
+	print('############')
+	print('Run comand with DATABASE: %s' % DATABASE)
+	print('############')
 	conn = None
 	try:
 		conn = sqlite3.connect(DATABASE)
