@@ -4,6 +4,8 @@ D:\OneDrive\Programer\freecad\mold_draw_v.01_source_code\database\FreeCAD_path.j
 
 All data will be save in database forder
 
+Delete conten of file __init__ before using
+
 Can built with below
 pyinstaller mold_draw.py --debug all
 pyinstaller mold_ui.py --debug all
