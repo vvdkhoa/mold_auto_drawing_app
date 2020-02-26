@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/save forder.png</file>
+    <file>images/delete.png</file>
+    <file>images/bab.png</file>
+    <file>images/caution.png</file>
+    <file>images/checked.png</file>
+    <file>images/export.png</file>
+    <file>images/main.png</file>
+    <file>images/save.png</file>
+  </qresource>
+</RCC>
