@@ -1,3 +1,5 @@
+TESTING
+
 PLASTIC ỊNECTION MOLD DRAWING APP
 
 Input:  Mold dimensiton
@@ -26,8 +28,6 @@ File icons.qrc convert to icons_rc.py
 C:\Users\DELL\AppData\Local\Programs\Python\Python36\Scripts\pyside2-rcc.exe icons.qrc -o icons_rc.py
 
 Reference
-https://www.youtube.com/watch?v=kq89VPwFMOY&list=PLYf4Vz9V1ESrVD_NMDlwRjgo8jn2UNEND&index=2
-https://www.youtube.com/watch?v=XkNItvjjVc4&list=PLYf4Vz9V1ESrVD_NMDlwRjgo8jn2UNEND&index=3
 
 Can not use
 --debug all --noconsole
